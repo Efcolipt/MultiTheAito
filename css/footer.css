@@ -1,0 +1,19 @@
+
+footer{
+		font-family: 'Open Sans', sans-serif;
+	background: #262A2D;
+	padding: 20px;
+text-align: center;
+	  position: relative;
+    z-index: 1000;
+}
+footer span {
+	color: #FFF;
+	font-size: 18px;
+	margin-left: 5px;
+}
+footer .copy {
+	color: #FFF;
+	font-size: 17px;
+	margin-top: 10px;
+}

@@ -1,0 +1,55 @@
+.donating > input{
+padding: 20px 15px 20px 15px;
+    background: #fff;
+    border: 1px solid #fff;
+    outline: 0;
+    margin-top: 12px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+    color: #262A2D;
+}
+
+input[name="send"]{
+	color: #404040;
+	background-color: #ECEDF1;
+	font-size: 25px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 2px;
+    border:#ECEDF1 ;
+    font-family: 'Fugaz One', cursive;
+    outline: 0;
+    cursor: pointer;margin-bottom: 40px;
+}
+
+form {
+	position: relative;
+	z-index: 1000;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	    margin: 0 auto;
+	    width: 400px;
+	    margin-top: 140px;
+}
+
+ input[name="send"]:active  {
+border-bottom: 2px solid rgba(37, 50, 58, 1);
+}
+@media only screen and (max-width:400px){
+    .donating{
+        width: 280px;
+    }
+    .donating > input{
+            padding: 11px 0px 12px 6px;
+                font-size: 15px;
+    }
+     input[name="send"]{
+          padding-bottom: 5px;
+          padding-top: 5px;
+          font-size: 21px;
+    }
+} 

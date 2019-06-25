@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	    background: #eee;
+}
+#bg{
+    position: fixed;
+    top: 1px;
+}
+.h1{
+	text-align: center;
+	margin-top: 40px;
+}
+.blocks {
+    display: none;
+        position: relative;
+    color: #404040;
+    background:#f3f3f3c4;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: 1013;
+    
+}
+.wrap_contact{
+	    text-align: center;
+     margin: 100px auto;
+     z-index: 1000; 
+     position: relative;
+}
+.contact{
+	margin-top: 30px;
+    display: inline-block;
+    background: #f3f3f3c4;
+    padding: 40px;
+    margin-left: 20px;
+}
+.box__img__contact a {
+	    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.box__img__contact img {
+	    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    transition: all 0.3s ease;
+}
+.box_name_contact h3 {
+	font-size: 1.75rem;
+	    margin-top: 0;
+	    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+.box_name_contact{
+	text-align: center;
+}
+.box_name_contact p {
+	    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.envelope__S i {
+    color: #B1B1B1;
+    margin-top: 2px;
+}
+.envelope__S p {
+		    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    margin-left: 7px;
+}
+.mail a {
+	    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.phone__S i {
+    color: #B1B1B1;
+    margin-top: 2px;
+}
+.phone__S p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #827575;
+    		    margin-top: 0;
+    margin-bottom: 1rem;
+}

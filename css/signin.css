@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+	background: #26AD8F;
+}
+input{
+    padding: 20px 15px 20px 15px;
+	background: #5FC2AC;
+	border: 1px solid #5FC2AC;
+	outline: 0;
+	margin-top: 12px;
+	border-radius: 2px;
+	font-size:20px;
+	font-family: 'Fugaz One', cursive;
+	 color:#404040;
+}
+
+input[type="submit"]{
+	color: #26AD8F;
+	background-color: #ECEDF1;
+	font-size: 25px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 2px;
+    border:#ECEDF1 ;
+    font-family: 'Fugaz One', cursive;
+    outline: 0;
+    cursor: pointer;
+}
+
+form {
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	    margin: 0 auto;
+	    width: 400px;
+	    margin-top: 140px;
+}
+
+ input[type="submit"]:active  {
+border-bottom: 2px solid rgba(217, 91, 72, 1) ;
+}
+.forgotPassword{
+	margin-top:12px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Fugaz One';	
+}
+.forgotPassword a{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Fugaz One';
+}
+.forgotPassword a:hover{
+	transition: all 0.6s ease;
+	color: #FFF400;
+	border-bottom: 1px solid #ECEDF1;
+}
+.forgotPassword span {
+	margin-left: 10px;
+}
+hr {
+	margin: 20px auto;
+	width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

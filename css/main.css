@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+#bg{
+position: fixed;
+top: 1px;
+}
+
+.title_news{
+	padding: 10px;
+	text-align: center;
+	
+}
+.title_news h1  {
+	color: #5c5c5c;
+}
+#nav {
+	position: fixed;
+	top: 895px;
+	left: 20px;
+	padding: 20px;
+	background: #000;
+	color: #FFF;
+	border: 1px solid #000;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	z-index: 1000;
+}
+#nav:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	-webkit-transition: all.5s ease;
+	   -moz-transition: all.5s ease;
+	    -ms-transition: all.5s ease;
+	     -o-transition: all.5s ease;
+	        transition: all.5s ease;
+}
+#nav a{
+	color: #FFF;
+	font-size: 20px;
+}

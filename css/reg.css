@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+	background: #2D3238;
+ 	outline: 0;
+}
+
+input {
+    padding: 20px 15px 20px 15px;
+	background: #3C4147;
+	border: 2px;
+	outline: 0;
+	margin-top: 12px;
+	border-radius: 2px;
+	font-size:20px;
+	font-family: 'Fugaz One', cursive;
+	 color: #fff;
+}
+input[ type="submit"]{
+	font-size: 25px;
+    margin-top: 25px;
+    background: #EA4C89;
+    color: #EED2E1;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #EA4C89;
+    border-radius: 6px;
+    font-family: 'Fugaz One', cursive;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+input[ type="submit"]:active  {
+border-bottom: 2px solid rgba(217, 91, 72, 1) ;
+}
+form {
+	display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+hr {
+	margin: 20px auto;
+	width: 25%;
+}
+.registr{
+	margin-top:12px;
+	text-align: center;
+	margin: 0 auto;
+}
+.registr a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-family:'Fugaz One', cursive;
+}
+#message{
+	padding: 10px; font-size: 17px; 
+	
+}
+.error{
+	color: red;
+
+}
+.success{
+	display: none;
+}
